@@ -62,7 +62,7 @@ nav h2 img {
 	width: 40%;
 }
 
-li a {
+nav li a {
 	padding: 5px;
 	background-color: #fff;
 	text-decoration: none;
@@ -204,6 +204,7 @@ nav li:hover {
 }
 
 .slider img {
+	border-radius: 10px;
 	width: 100%;
 	height: 100%;
 }
