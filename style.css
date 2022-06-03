@@ -134,6 +134,11 @@ nav li:hover {
 	transition: 100ms all ease-in-out;
 }
 
+.image:active .add-cart {
+	background-color: rgb(46, 46, 46);
+	transition: 100ms;
+}
+
 #h1-catalogo {
 	text-align: center;
 	font-size: 70px;
@@ -197,7 +202,7 @@ nav li:hover {
 	display: flex;
 	padding: 0;
 	width: 500%;
-	animation: cambio 25s infinite alternate ease-in-out;
+	animation: cambio 20s infinite alternate ease-in-out;
 }
 
 .slider li {
