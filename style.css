@@ -12,7 +12,7 @@ body {
 	color: white;
 }
 
-/* Header en todas las páginas */
+/* --------------------------Header del sitio---------------------------- */
 header {
 	background-image: url(images/tacos.jpg);
 	background-repeat: no-repeat;
@@ -87,9 +87,11 @@ nav li:hover {
 	text-decoration: none;
 }
 
-/* Catalogo */
+/* --------------------------Catálogo---------------------------- */
 
-.container {
+/* En esta parte, products-container es para el carrito */
+.container,
+.products-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -138,7 +140,7 @@ nav li:hover {
 	margin-top: 50px;
 }
 
-/* About Us */
+/* --------------------------About Us---------------------------- */
 .aboutus {
 	margin-top: 100px;
 	display: flex;
@@ -176,7 +178,7 @@ nav li:hover {
 	margin-top: 50px;
 }
 
-/* Slider en el index */
+/* --------------------------Slider en el index--------------------------- */
 .slider {
 	width: 600px;
 	height: auto;
@@ -244,4 +246,47 @@ nav li:hover {
 	100% {
 		margin-left: -400%;
 	}
+}
+
+/* --------------------------Carrito---------------------------- */
+
+.products-container {
+	max-width: 650px;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.product-header {
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: solid 4px lightgray;
+	margin: 0 auto;
+}
+
+.product.title {
+	width: 45%;
+}
+
+.price {
+	width: 15%;
+	display: flex;
+	align-items: center;
+}
+
+.total {
+	width: 10%;
+	display: flex;
+	align-items: center;
+}
+
+.product {
+	width: 45%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid lightgray;
 }
