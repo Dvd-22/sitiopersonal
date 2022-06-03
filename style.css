@@ -111,6 +111,16 @@ nav li:hover {
 	overflow: hidden;
 }
 
+#chilaquiles:target,
+#enchiladas:target,
+#tacos:target,
+#pambazo:target,
+#polloconmole:target {
+	transform: translateY(-15px);
+	box-shadow: rgba(252, 252, 252, 0.622) 0px 0px 10px;
+	transition: 300ms ease-in-out;
+}
+
 .image img {
 	width: 100%;
 	height: auto;
@@ -134,7 +144,7 @@ nav li:hover {
 	transition: 100ms all ease-in-out;
 }
 
-.image:active .add-cart {
+.image .add-cart:active {
 	background-color: rgb(46, 46, 46);
 	transition: 100ms;
 }
