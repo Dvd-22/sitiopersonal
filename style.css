@@ -147,6 +147,29 @@ nav li:hover {
 	margin-top: 50px;
 }
 
+.project-desc, #project-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.project-desc h2 {
+	margin-top: 3em;
+}
+
+#project-img img {
+	margin-top: 3em;
+	width: 50%;
+	border-radius: 15px;
+}
+
+#project-img img:hover {
+	transform: scale(97%);
+	transition: 100ms;
+}
+
+
 /* --------------------------About Me---------------------------- */
 .aboutus {
 	margin-top: 100px;
